@@ -1,0 +1,2 @@
+fuente de logo = https://fonts.google.com/specimen/Agbalumo
+fuente del sitio = Open Sans
