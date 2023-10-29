@@ -21,14 +21,30 @@
             <a href="index.html" class="nav-items">Inicio</a>
             <a href="productos.html" class="nav-items">Productos</a>
             <a href="establecimiento.html" class="nav-items">Establecimiento</a>
-            <a href="contacto.html" class="nav-items">Contacto</a>
+            <a href="contacto.html" class="nav-items nav-items__activo">Contacto</a>
             <!-- Esto va a ir en el html del contacto -->
             <!-- <a href="<iframe src="<div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=general alvear el alma-cen&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">google maps code generator</a></div><style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}.gmap_iframe {width:600px!important;height:400px!important;}</style></div> -->
         </nav>
     </header>
 
-    <main>
-
+    <main class="container-index">
+        <p id="temp"></p>
+        <a href="<iframe src="<div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=general alvear el alma-cen&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com"></a></div><style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%px;height:80%px;}.gmap_iframe {width:100%!important;height:100%!important;}</style></div>
+        <div class="container_form">
+            <!--   -->
+            <form id="form" action="https://formsubmit.co/rossirobertoalejandro@gmail.com" method="POST" class="formulario">
+                <h2> Contáctenos </h2>
+                <label for="name" class="formulario__label">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre" class="formulario__input" required>
+                <label for="phone" class="formulario__label">Teléfono</label>
+                <input type="tel" name="phone" id="phone" placeholder="Teléfono" class="formulario__input" required>
+                <label for="email" class="formulario__label">Correo</label>
+                <input type="email" name="email" id="email" placeholder="Email" class="formulario__input" required>
+                <label for="message" class="formulario__label">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                <input type="submit" value="Enviar" class="btn">
+            </form>
+        </div>
     </main>
 
     <footer>
@@ -48,6 +64,7 @@
         </div>
         <h3>Todos los derechos reservados. 2023.</h3>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

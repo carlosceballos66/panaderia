@@ -16,9 +16,10 @@
 
 <body>
     <header>
+
         <h1 class="logo">Panettone</h1>
         <nav>
-            <a href="index.html" class="nav-items">Inicio</a>
+            <a href="#" class="nav-items nav-items__activo">Inicio</a>
             <a href="productos.html" class="nav-items">Productos</a>
             <a href="establecimiento.html" class="nav-items">Establecimiento</a>
             <a href="contacto.html" class="nav-items">Contacto</a>
@@ -27,8 +28,9 @@
         </nav>
     </header>
 
-    <main>
-        <section class="container">
+    <main class="container-index">
+        <p id="temp"></p>
+        <section>
             <div class="nosotros">
                 <h2>Sobre nosotros</h2>
                 <p>
@@ -45,7 +47,7 @@
                     utilizando los mejores ingredientes.
                 </p>
             </div>
-            <div class="imagenes">
+            <div class="imagenes__nosotros">
                 <img src="/imagenes/pastel1.jpg" alt="pastel">
                 <img src="./imagenes/dulces4.jpg" alt="dulces">
                 <img src="/imagenes/sandwichMiga.jpg" alt="salados">
@@ -54,9 +56,15 @@
             <div class="servicios">
                 <h2>Nuestros Servicios</h2>
                 <div>
-                    <ul>Servicio de lunch</ul>
-                    <ul>Panadería | Pastelería</ul>
-                    <ul>Dulces | Salados</ul>
+                    <h3>Servicio de lunch</h3>
+                    <p>
+
+                        Brindamos un servicio de lunch de excelencia con una amplia variedad de productos para que vos y
+                        tus invitados disfruten del evento sin ninguna preocupación.
+                        </br>
+                        </br>
+                        El servicio incluye: Recepción, bocaditos calientes, sandwiches, mesa dulce y más…
+                    </p>
                 </div>
             </div>
         </section>
@@ -79,6 +87,7 @@
         </div>
         <h3>Todos los derechos reservados. 2023.</h3>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

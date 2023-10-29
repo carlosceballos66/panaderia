@@ -1,2 +1,5 @@
 fuente de logo = https://fonts.google.com/specimen/Agbalumo
 fuente del sitio = Open Sans
+
+api de clima = https://openweathermap.org/api
+api para formulario = https://formsubmit.co/
